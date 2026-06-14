@@ -1,16 +1,70 @@
-# React + Vite
+# SmartClass ERP Admin Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Overview
+SmartClass ERP Admin Portal is a web-based college management system developed using React.js and Vite. It helps administrators manage students, subjects, attendance, assignments, marks, and timetables through a modern dashboard interface.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🔐 Admin Login Authentication
+- 📊 Dashboard Overview
+- 👨‍🎓 Student Management
+- 📚 Subject Management
+- 📝 Attendance Management
+- 📋 Assignment Management
+- 📈 Marks Management
+- 🗓️ Timetable Management
+- 💾 LocalStorage Data Persistence
+- 📱 Responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+- React.js
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Router DOM
+- Context API
+- LocalStorage
+- Lucide React Icons
+- Vercel
 
-## React Compiler
+## 📂 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+src/
+├── components/
+├── context/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
 
-## Expanding the ESLint configuration
+## 🚀 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/akshaymatlapelly-rgb/smartclass-erp-admin-portal.git
+cd smartclass-erp-admin-portal
+npm install
+npm run dev
+```
+
+## 🌐 Live Demo
+
+https://smart-erp-portal-eosin.vercel.app
+
+## 📷 Modules
+
+- Dashboard
+- Student Management
+- Subject Management
+- Attendance Management
+- Assignment Management
+- Marks Management
+- Timetable Management
+
+## 👨‍💻 Developer
+
+**Akshay Matlapelly**
+
+## 📄 License
+
+This project is developed for educational and academic purposes.
