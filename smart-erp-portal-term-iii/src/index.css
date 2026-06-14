@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-dark text-white font-inter min-h-screen overflow-x-hidden antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-orbitron tracking-wider;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-xl;
+  }
+  
+  .glass-card {
+    @apply glass-panel rounded-2xl p-6 transition-all duration-300 hover:border-white/20 hover:shadow-neon-purple/20;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+  
+  .text-gradient-primary {
+    @apply text-gradient from-neon-purple to-neon-blue;
+  }
+  
+  .text-gradient-success {
+    @apply text-gradient from-neon-green to-neon-blue;
+  }
+  
+  .text-gradient-warning {
+    @apply text-gradient from-neon-amber to-neon-pink;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-navy-purple;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neon-purple/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neon-purple/80;
+}
+
+/* Canvas background */
+#particles-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
